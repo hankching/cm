@@ -193,3 +193,6 @@ $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
 BOARD_SEPOLICY_DIRS := \
        device/jiayu/s3_h560/sepolicy
 
+# SELInux Work-around for LP prebuilt Kernel
+POLICYVERS := 29
+
